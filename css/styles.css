@@ -1,0 +1,114 @@
+
+.sidebar{
+    background-color: #6e7479;
+    float: left;
+    padding: 10px;
+    width: 275px;
+    height: 900px;
+    
+}
+button {
+   width: 130px;
+}
+.btm span {
+    width: 50px;
+    background-color: red;
+}
+#company-logo{
+    padding:5px 60px; 
+}
+.bsre{
+    width: 100px;
+    
+    position: relative;
+}
+.nav-link{
+    color: white;
+}
+.btn-secondary{
+    text-align: left;
+    
+}
+.sr-only{
+    float: right;
+}
+.btnspace{
+    
+  
+}
+
+.dropdown-menu{
+    position: relative;
+}
+
+ 
+
+
+
+/*Navbar*/
+.profile-nav{
+    margin-left: 275px;  
+    text-align: right;
+
+}
+.admin{}
+#user,#img{
+    display: inline-block;
+}
+
+/*  student form*/
+.name{
+    background-color: #498cd3;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+}
+.
+.admit-form,.form{
+    margin-left: 300px;
+    padding-left: 80px;
+    float: right;
+}
+.value{
+    width: 173px;
+}
+h2,h4,.breadcrumb {
+    margin-left: 310px;
+}
+form input,select{
+    margin: 30px 15px;
+}
+.save{
+    font-size: 1.4rem;
+    color: white;
+    
+    background-color:  #498cd3;
+}
+.reset{
+     font-size: 1.4rem;
+    color: white;
+  
+    background-color: #6e7479;
+    
+}
+table{
+    margin: 15px;
+    padding: 15px;
+}
+
+th,tr{
+    padding: 20px 30px;
+   
+    text-align: center;
+}
+.btn-coll,.btn-canc{
+    width: 50px;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    
+    
+}
+.side-adj{
+    width: 70px;
+}

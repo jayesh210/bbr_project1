@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" t>
+    <title>All student</title>
+    <link rel="icon" href="image/LOGO.png">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta&family=MuseoModerno:wght@700&display=swap" rel="stylesheet">
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/fc3c1fb593.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!--
+       TAILWIND CSS
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+    <aside>
+        <div class="sidebar">
+
+
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" id="company-logo">
+                BBR
+            </button>
+
+
+
+            <ul class="nav flex-column collapse light " id="collapseExample">
+
+                <li class="nav-item ">
+                    <div class="btn-group">
+                        <button type="button" class="btn top btn-secondary "><i class="fas fa-tachometer-alt"></i> Dashboard</button>
+                        <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">option</a>
+                            <a class="dropdown-item" href="#">option</a>
+                            <a class="dropdown-item" href="#">option</a>
+
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item ">
+                    <div class="btn-group">
+                        <button type="button" class="btn top btn-secondary"><i class="fas fa-graduation-cap"></i> Student </button>
+                        <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" id="All student" href="#">All student </a>
+                            <a class="dropdown-item" id="Admission form" href="index.html">Admission form</a>
+
+                        </div>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <div class="btn-group">
+                        <button type="button" class="btn top btn-secondary"><i class="fas fa-users"></i> Parents</button>
+                        <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">option</a>
+                            <a class="dropdown-item" href="#">option</a>
+                            <a class="dropdown-item" href="#">option</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="btn-group">
+                        <button type="button" class="btn  btn-secondary"><i class="fas fa-chalkboard-teacher"></i> Teachers</button>
+
+                        <button type="button" class="btn  btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">option</a>
+                            <a class="dropdown-item" href="#">option</a>
+                            <a class="dropdown-item" href="#">option</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="btn-group">
+                        <button type="button" class="btn top btn-secondary"><i class="fas fa-book-reader"></i> Library</button>
+
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="btn-group">
+                        <button type="button" class="btn top btn-secondary"><i class="far fa-user-circle"></i> Account</button>
+
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="btn-group">
+                        <button type="button" class="btn top btn-secondary"><i class="far fa-clipboard"></i> Class</button>
+
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </aside>
+     <nav class="profile-nav">
+
+        <div class="dropdown ">
+
+            <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Jayesh Paliwal
+            </button> <i class="fas fa-user fa-3x"></i><br>admin
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item name" href="#">Jayesh Paliwal</a>
+                <a class="dropdown-item" href="#"><i class="fas fa-globe"></i> My Profile</a>
+                <a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt"></i> Logout</a>
+
+            </div>
+
+        </div>
+    </nav>
+
+    <article class="allstudent-form">
+
+        <h2>Student</h2>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">All student</li>
+            </ol>
+        </nav>
+        <br>
+        <div>
+            <h2>Add Students data</h2>
+
+        </div>
+
+        <div>
+            <nav class="navbar navbar-light bg-light">
+                <form class="form-inline">
+                   <input class="form-control mr-sm-2" type="search" placeholder="Search by name" aria-label="Search">
+                    <button class="btn btn-secondary btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </nav>
+        </div>
+
+        <table border="1">
+            <tr>
+                <th>S.No</th>
+                <th>School Id</th>
+                <th>Name </th>
+                <th>Father Name</th>
+                <th>Mother Name</th>
+                <th>Gender</th>
+                <th>Birthday</th>
+                <th>Blood Group</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>101</td>
+                <td>Jayesh Paliwal</td>
+                <td>Suresh Chandra Paliwal</td>
+                <td>Shanta Paliwal</td>
+                <td>Male</td>
+                <td>14-01-2002</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>102</td>
+                <td>Jayesh Paliwal</td>
+                <td>Suresh Chandra Paliwal</td>
+                <td>Shanta Paliwal</td>
+                <td>Male</td>
+                <td>14-01-2002</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>103</td>
+                <td>Jayesh Paliwal</td>
+                <td>Suresh Chandra Paliwal</td>
+                <td>Shanta Paliwal</td>
+                <td>Male</td>
+                <td>14-01-2002</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>104</td>
+                <td>Jayesh Paliwal</td>
+                <td>Suresh Chandra Paliwal</td>
+                <td>Shanta Paliwal</td>
+                <td>Male</td>
+                <td>14-01-2002</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>104</td>
+                <td>Jayesh Paliwal</td>
+                <td>Suresh Chandra Paliwal</td>
+                <td>Shanta Paliwal</td>
+                <td>Male</td>
+                <td>14-01-2002</td>
+                <td>-</td>
+            </tr>
+            
+
+
+
+        </table>
+
+    </article>
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+    <script src="javasc.js"></script>
+</body>
+
+</html>
