@@ -1,12 +1,6 @@
-////alert("working")
-//$(".btn-coll").cli(function(){
-//    alert("working");
-//    button.innerHTML("<i class="fas fa-times"></i>");
-//    
-//});
-//}
+
 $(".btn-canc").hide(1000);
-alert("hi ");
+
 $(".btn-coll").click(function(){
      $("ul").hide(1000);
      $(".bbr").hide(1000);
