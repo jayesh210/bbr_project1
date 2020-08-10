@@ -68,6 +68,7 @@ button {
     margin-left: 300px;
     padding-left: 80px;
     float: right;
+    float: top;
 }
 .value{
     width: 173px;
